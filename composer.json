@@ -1,0 +1,19 @@
+{
+    "name": "hacklee/laravel5-multi-auth",
+    "description": "laravel5 mutil auth",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hacklee",
+            "email": "517184100@qq.com"
+        }
+    ],
+    "require": {
+		"php": ">=5.4.0"	
+    },
+    "autoload": {
+    "psr-4": {
+	    "Hacklee\\Multiauth": "src/",
+        }
+    } 
+}
