@@ -10,6 +10,7 @@ ravel5 多个Auth实现  [![License](https://poser.pugx.org/ollieread/multiauth/
  }
 ```
 > * 执行 composer update
+
 ##使用步骤
 > * 替换app.config 中的'Illuminate\Auth\AuthServiceProvider'  为 'Hacklee\Multiauth\XhAuthServiceProvider'
 > * 更改auth.php 
