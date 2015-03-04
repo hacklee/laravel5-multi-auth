@@ -1,7 +1,15 @@
-# Laravel5 多个Auth实现  [![License](https://poser.pugx.org/ollieread/multiauth/license.png)](https://packagist.org/packages/ollieread/multiauth)
+ravel5 多个Auth实现  [![License](https://poser.pugx.org/ollieread/multiauth/license.png)](https://packagist.org/packages/ollieread/multiauth)
 ###参考 https://github.com/ollieread/multiauth 写的4.2版思路
 
+##使用composer加载到项目
+> * 修改composer.json 增加下面的require
 
+```
+ "require": {
+    "hacklee/laravel5-multi-auth": "dev-master"
+ }
+```
+> * 执行 composer update
 ##使用步骤
 > * 替换app.config 中的'Illuminate\Auth\AuthServiceProvider'  为 'Hacklee\Multiauth\XhAuthServiceProvider'
 > * 更改auth.php 
@@ -58,5 +66,6 @@ Auth::cp()->attempt();
 Auth::api()->attempt();
 Auth::op()->attempt();
 ```
+
 
 
